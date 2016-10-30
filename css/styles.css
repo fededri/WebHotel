@@ -3,10 +3,29 @@
 
 * {
   margin: 0;
+  
 }
 
 
+html, body, #container { height: 100%; }
+body > #container { height: auto; min-height: 100%; }
 
+#footer {
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 3em;
+ margin-top: -3em;
+ 
+}
+
+
+.footer p {
+text-align:center;
+align-content:center;
+}
+
+#content { padding-bottom: 3em; }
 
 ul.topnav {
     list-style-type: none;
@@ -15,9 +34,7 @@ ul.topnav {
     overflow: hidden;
     background-color: #DB90D8;
 	align-items:center;
-	text-align:center;
-
-	
+	text-align:center;	
 }
 
 
@@ -56,5 +73,8 @@ ul.topnav li a:hover {background-color: #E471B8;}
 	margin-top:30px;
 	
 }
+
+
+
 
 
