@@ -15,11 +15,15 @@ ul.topnav {
     overflow: hidden;
     background-color: #DB90D8;
 	align-items:center;
+	text-align:center;
+
 	
 }
 
 
-ul.topnav li {float: left;}
+
+
+ul.topnav li {display:inline;}
 
 
 ul.topnav li a {
@@ -30,11 +34,27 @@ ul.topnav li a {
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+	
 }
 
 
 ul.topnav li a:hover {background-color: #E471B8;}
 
+#parrafo{
+	margin:auto;
+	text-align:center;
+	
+		
+}
 
+#intro {
+	position:relative;
+}
+
+#intro h1{
+	text-align:center;
+	margin-top:30px;
+	
+}
 
 
